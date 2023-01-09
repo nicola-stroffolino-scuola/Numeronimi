@@ -9,7 +9,7 @@ Da questi due numeronimi è facile capire il meccanismo di abbreviazione usato p
 
 Nel generare un numeronimo occorre fare attenzione ad alcune cose:
 - per scrivere un numeronimo si usano sempre lettere minuscole, tranne l'eccezione al punto successivo
-- la i maiuscola e la L minuscola possono facilmente confondersi. Per questo motivo se in un numeronimo sono presenti una i o una elle andranno utilizzate rispettivamente in minuscolo e in maiuscolo
+  - la i maiuscola e la L minuscola possono facilmente confondersi: per questo motivo se in un numeronimo sono presenti una i o una elle andranno utilizzate rispettivamente in minuscolo e in maiuscolo
 - la parola Kubernetes e la parola kubernetes dovranno generare sempre il numeronimo K8s
 - se il numeronimo è costituito da più di una parola, le singole parole del numeronimo dovranno essere separate da una @.
 - se il metodo viene chiamato con mode = 0 il numeronimo dovrà, salvo i casi particolari indicati, contenere solo lettere minuscole
@@ -19,6 +19,6 @@ Nel generare un numeronimo occorre fare attenzione ad alcune cose:
   - Es: Carlo Martello -> C3o@M6o
   - Analogo procedimento se le parole sono più di due.
 
-L'esercizio prevede la scrittura del metodo Numeronimimyze che verrà utilizzato successivamente all'interno di una classe StringServices dedicata al processamento di stringhe.
+L'esercizio prevede la scrittura del metodo Numeronymize che verrà utilizzato successivamente all'interno di una classe StringServices dedicata al processamento di stringhe.
 
 Per saperne di più sulle origini dei numeronimi, si può consultare questa pagina di Wikipedia: [https://en.wikipedia.org/wiki/Numeronym](https://en.wikipedia.org/wiki/Numeronym)
