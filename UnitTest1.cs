@@ -90,4 +90,19 @@ public class UnitTest1
     {
         Assert.Equal("Invalid string", Numeronimo.Numeronymize("MaRCELLo Paganell!", 0));
     }
+    [Fact]
+    public void NomeCognome_mode1()
+    {
+        Assert.Equal("R6o@B5i", Numeronimo.Numeronymize("riccardo bianchi", 1));
+    }
+    [Fact]
+    public void NomeCognome_2_mode1()
+    {
+        Assert.Equal("M6o@P7i", Numeronimo.Numeronymize("MARCELLO Paganelli", 1));
+    }
+    [Fact]
+    public void NomeCognome_3_mode1()
+    {
+        Assert.Equal("M6o@P7i@D3a@R4e", Numeronimo.Numeronymize("MARCELLO Paganelli Della ROVERE", 1));
+    }
 }
