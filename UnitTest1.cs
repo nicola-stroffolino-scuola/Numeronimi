@@ -48,17 +48,17 @@ public class UnitTest1
     [Fact]
     public void NomeCognome_()
     {
-        Assert.Equal("R6o@B5i", Numeronimo.Numeronymize("riccardo bianchi"));
+        Assert.Equal("r6o@b5i", Numeronimo.Numeronymize("riccardo bianchi"));
     }
     [Fact]
     public void NomeCognome_2()
     {
-        Assert.Equal("M6o@P7i", Numeronimo.Numeronymize("MARCELLO Paganelli"));
+        Assert.Equal("m6o@p7i", Numeronimo.Numeronymize("MARCELLO Paganelli"));
     }
     [Fact]
     public void NomeCognome_3()
     {
-        Assert.Equal("M6o@P7i@D3a@R4e", Numeronimo.Numeronymize("MARCELLO Paganelli Della ROVERE"));
+        Assert.Equal("m6o@p7i@d3a@r4e", Numeronimo.Numeronymize("MARCELLO Paganelli Della ROVERE"));
     }
     [Fact]
     public void Numero()
